@@ -1,0 +1,71 @@
+body {
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+  color: rgb(42, 42, 42);
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  width: 400px;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  border: 2px solid;
+  border-color: #ffdee9;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 2px solid rgba(124, 169, 196, 0.295);
+}
+
+td {
+  font-size: 2em;
+  padding: 0.7em;
+  text-align: center;
+  cursor: default;
+  transition: 0.2s;
+  border: 2px solid rgba(178, 217, 235, 0.363);
+}
+
+td:hover {
+  background-color: rgb(199, 199, 199);
+}
+
+input {
+  padding: 20px 5px;
+  width: 390px;
+  border: 0;
+  font-size: 2vw;
+  background-color: #dbe0e000;
+  color: #0c2340;
+  text-align: right;
+}
+
+.vari {
+  background-color: #dbe0e000;
+  color: #0c2340;
+}
+
+.vari:hover {
+  background-color: #222;
+}
+
+.equalbtn {
+  background: rgb(241, 183, 116);
+}
+
+@media screen and (max-width: 800px) {
+  input {
+    width: 320px;
+  }
+}
